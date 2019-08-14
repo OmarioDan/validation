@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <div class="container" >
+        <h1>Registration Form</h1>
+
+        <form action="#" id="registration form" onsubmit="validate()">
+            <label for="user-id" class="text-box label">User Id:</label>
+            <input type="text" name="user-id" id="userId"><br><br>
+            
+            <label  for="password" class="text-box label">Password:</label>
+            <input type="password" name="user-password" id="password"><br><br>
+
+            <label for="user-name" class="text-box label">Name:</label>
+            <input type="text" name="user-name" id="user-name"><br><br>
+
+            <label for="address" class="text-box label">Address:</label>
+            <input type="text" name="user-address" id="address"><br><br>
+
+            <label class="label" for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="">please select a country</option>
+                <option value="TZ">Tanzania</option>
+                <option value="KY">Kenya</option>
+                <option value="SU">Sudan</option>
+                <option value="RW">Rwanda</option>
+            </select><br><br>
+
+            <label for="zip" class="text-box label">Zip Code:</label>
+            <input type="text" name="zip" id="zip"><br><br>
+
+            <label for="email" class="text-box label">Email:</label>
+            <input type="text" name="user-email" id="email"><br><br>
+
+            <label for="sex" class="text-box label">Sex:</label>
+           <input type="radio" name="user-sex" id="sex">Male
+           <input type="radio" name="user-sex" id="sex">Female<br><br>
+
+            <label for="Language" class="text label">Language:</label>
+            <input type="checkbox" name="user-language" id="language">English
+            <input type="checkbox" name="user-language" id="language">Non English<br><br>
+
+            <label class="label" for="about">About:</label><br>
+            <textarea name="" id="textaream" cols="40" rows="10"></textarea><br><br>
+            <button type="Submit">Submit</button>
+
+        </form>
+    </div>
+<script src="validate.js" type="text/javascript"></script>
+</body>
+</html>

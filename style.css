@@ -1,0 +1,40 @@
+.container{
+    background-color: navajowhite;
+    width: 50%;
+    margin: auto;
+
+}
+.label{
+    font-weight: lighter;
+    float: left;
+    text-align: right;
+    width: 100px;
+    margin-right: 10px;
+
+}
+.input{
+width: 30%;
+text-align: center;
+}
+
+#password {
+    width: 250px;
+}
+#user-name {
+    width: 250px;
+}
+#address {
+    width: 250px;
+}
+h1{
+    /* text-align:center; */
+    padding-left: 20px;
+}
+textarea{
+    margin-left:110px;
+}
+
+button{
+    padding: 10px 10px;
+    margin-left: 250px;
+}
